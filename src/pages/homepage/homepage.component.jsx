@@ -3,8 +3,8 @@ import Directory from '../../components/directory/directory.component';
 
 import './homepage.styles.scss';
 
-const HomePage = () => (
-  <Directory />
+const HomePage = ({ history }) => (
+  <Directory history={history} />
 );
 
 export default HomePage;
